@@ -1,6 +1,16 @@
-// jQuery Notify 1.0.1
+// jQuery Notify plugin
 
-(function($) {
+(function(factory, jQuery) {
+
+    if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object') {
+        module.exports = factory(require('jquery'));
+    } else {
+        factory(jQuery);
+    }
+
+}(function($) {
     $.fn.notify = function(text, timer) {
         var node = this;
         timer = typeof timer === undefined ? 3000 : timer * 1000;
@@ -23,4 +33,4 @@
             });
         }
     }
-})(jQuery);
+}, window.jQuery));
