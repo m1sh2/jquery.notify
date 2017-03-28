@@ -1,0 +1,19 @@
+{
+  "name": "jquery.notify",
+  "version": "1.0.1",
+  "description": "",
+  "main": "jquery.notify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1sh2/jquery.notify.git"
+  },
+  "author": "Mike Datsko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m1sh2/jquery.notify/issues"
+  },
+  "homepage": "https://github.com/m1sh2/jquery.notify#readme"
+}
